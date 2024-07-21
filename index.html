@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container2">
+    <h1>Rock Paper Scissors Game</h1>
+    </div> 
+    
+    <div class="container4">
+    <div class="container3">
+        <div class="score">
+        <p id="paste" class="text"></p> 
+        <p id="paste2"></p>
+        <p id="paste3" class="special2"></p> 
+        </div>
+        <div class="score2">
+        <p id="paste5"></p>
+        <p id="paste6"></p>
+        <p id="paste4" class="special"></p>  
+        </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+    <button id="rock">Rock</button>
+    
+    <button id="paper">Paper</button>
+
+    <button id="scissors">Scissors</button>
+
+    <button id="reset" class="reset">Reset</button>
+    </div> 
+
+    <style>
+        body {
+            background-color: burlywood; 
+        }
+        .container {
+            height: 500px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 30px;    
+        }
+
+        .reset {
+            color: red; 
+        } 
+
+        button {
+            border: 3px solid gray; 
+            border-radius: 30px;  
+            color: white; 
+            background-color: black; 
+            height: 50px; 
+            width: 100px; 
+            font-size: 18px;
+            font-weight: bold; 
+            font-family: monospace; 
+            margin-bottom: 350px; 
+        }
+
+        button:hover {
+            background-color: grey; 
+        }
+         
+        .container2 {
+            display: flex; 
+            justify-content: center; 
+        }
+
+        .container3 {
+            height: 300px;
+            width: 300px; 
+            background-color: white; 
+            border: solid 5px; 
+            border-radius: 30px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 5px; 
+            flex-direction: column; 
+        }
+
+
+        .container4 {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            font-size: 18px;
+            font-family: monospace;
+        }
+
+        .special {
+            display: flex;
+            font-size: 15px;
+            color: orangered; 
+            padding-left: 20px; 
+            padding-bottom: 10px; 
+        }
+
+        .special2 {
+            padding-bottom: 20px; 
+            padding-left: 10px; 
+        }
+
+        .text {
+            padding-top: 10px; 
+        }
+
+        .box {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .score {
+            height: 300px;
+            width: 300px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .score2 {
+            height: 300px;
+            width: 300px;  
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</body>
+</html>
